@@ -32,7 +32,8 @@ body a{
 /* Header */
 header {
     background-image: url('./images/header-bg.png');
-    background-repeat:repeat-x;
+    background-repeat:no-repeat;
+    min-height: 100vh;
 }
 .navbar{
     position: absolute;
@@ -45,7 +46,7 @@ header {
 }
 .navbar ul li{
     list-style: none;
-    display: inline;
+    display: inline-block;
     margin: 0 25px;
 }
 .navbar ul{
@@ -54,6 +55,7 @@ header {
 }
 .logo{
     width: 180px;
+    margin-top: 30px;
     margin-left: 50px;
 }
 .ctn{
@@ -68,7 +70,7 @@ header {
 .row{
     display: flex;
     align-items: center;
-    padding-top: 5rem;
+    padding-top: 10rem;
 }
 .header-content ,
 .hero-img{
